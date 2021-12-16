@@ -28,6 +28,6 @@ except KeyboardInterrupt:
     thread.join()
     last = thread.last_loop_time
     print('loop time in \n' \
-      'nanoseconds: ' + str(last) + '\n' + \
-      'microseconds: ' + str(last / 1000) + '\n' + \
-      'milliseconds: ' + str((last / 1000) / 1000))
+          'nanoseconds: ' + str(last) + '\n' + \
+          'microseconds: ' + str(last / 1000) + '\n' + \
+          'milliseconds: ' + str((last / 1000) / 1000))
